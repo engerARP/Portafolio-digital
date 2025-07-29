@@ -1,0 +1,136 @@
+/* Reset general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para el cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+/* Estilos para el encabezado */
+header {
+  text-align: center;
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+/* Estilo para la sección "Sobre mí" */
+.about {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.about h2 {
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+.about p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Estilo para la sección "Redes sociales" */
+.social {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.social h2 {
+  font-size: 2rem;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.social ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.social a {
+  display: inline-block;
+  margin: 10px;
+  color: #2980b9;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.social a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para la sección "Proyectos" */
+.projects {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects h2 {
+  font-size: 2rem;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.projects ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.projects a {
+  display: block;
+  margin: 10px;
+  color: #2980b9;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.projects a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para el pie de página */
+footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+  background-color: #2c3e50;
+  color: white;
+  border-radius: 10px;
+}
